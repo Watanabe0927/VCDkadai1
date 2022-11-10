@@ -1,0 +1,102 @@
+body{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+    font-family: 'Caveat', cursive;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom:0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+ul.indexmenu{
+font-size: 20px;
+margin: 0px;
+padding: 0px 0px 0px 0px;
+background-color: rgb(33, 33, 98);
+}
+ul.indexmenu li{
+width: 150px;
+display: inline-block;
+list-style-type: none;
+position: relative;
+}
+ul.indexmenu a{
+background-color: rgb(33, 33, 98);
+color: white;
+line-height: 40px;
+text-align: center;
+text-decoration: none;
+display: block;
+}
+ul.indexmenu ul{
+display: none;
+margin: 0px;
+padding: 0px;
+position: absolute;
+}
+ul.indexmenu a:hover{
+background-color: rgb(57, 57, 133);
+color: white;
+}
+ul.indexmenu li:hover ul{
+    display: block;
+}
+#page-top{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    font-size: 1.2rem;
+    background: rgb(156, 137, 218);
+    color: white;
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px -6px rgba(0, 0, 0,.5),0 3px 10px -4px rgba(0, 0, 0, 2);
+}
+.head{
+    float: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 80%;
+    height: 250px;
+}
+.main{
+    background-color: black;
+    height: 100%;
+    width: 80%;
+    padding: 10px;
+    margin: 0 auto;
+}
+.main p{
+    margin: 0;
+    padding: 0;
+}
+.cose{
+    float: center;
+    margin-top: -30px;
+    width: 25%;
+    height: 25%;
+}
+.ccourse{
+    background-color: rgb(61, 56, 56);
+    margin: 5%;
+    padding: 20px;
+}
+.scourse{
+    background-color: rgb(61, 56, 56);
+    margin: 5%;
+    padding: 20px;
+}
+.pcourse{
+    background-color: rgb(61, 56, 56);
+    margin: 5%;
+    padding: 20px;
+}
